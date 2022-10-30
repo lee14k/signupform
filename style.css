@@ -40,6 +40,7 @@ display: flex;
   height:auto;
   align-items: flex-start;
    justify-content: left;
+
   
 }
 
@@ -92,4 +93,16 @@ button {
     display: flex;
     justify-content: left;
 
+}
+
+@media(max-width: 600px) {
+.picture {
+    background-size:600px;
+    width:200px;
+}
+
+}
+
+.nomatch {
+    color:white;
 }
